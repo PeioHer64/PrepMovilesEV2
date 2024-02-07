@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9C7"
+    tools:context=".InfoFragment2b">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="297dp"
+        android:layout_height="137dp"
+        android:text="@string/a_la_llegada_de_los_musulmanes_en_el_711_el_rey_rodrigo_se_encontraba_combatiendo_a_los_vascones_en_pamplona_y_en_menos_de_cinco_a_os_las_tropas_rabes_y_bereberes_alcanzaron_la_ciudad_someti_ndola_mediante_compromiso_adoptado_entre_los_comandantes_del_califato_omeya_y_representantes_de_la_ciudad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="303dp"
+        android:layout_height="185dp"
+        android:text="@string/en_el_siglo_v_el_poder_romano_es_sustituido_por_el_visigodo_pero_stos_al_contrario_que_los_romanos_no_alcanzaron_una_buena_relaci_n_con_los_vascones_la_ciudad_fue_sede_episcopal_de_la_iglesia_visigoda_58_y_en_ella_residieron_visigodos_por_las_necr_polis_de_la_poca_que_se_han_hallado_la_mala_relaci_n_entre_vascones_y_visigodos_ha_dado_pie_a_una_cierta_pol_mica_sobre_la_presencia_de_stos_en_la_ciudad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="198dp"
+        android:layout_height="56dp"
+        android:capitalize="none"
+        android:text="@string/edad_media"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        tools:ignore="Deprecated,TextViewEdits,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9C7"
+    tools:context=".InfoFragment3">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="299dp"
+        android:layout_height="184dp"
+        android:text="@string/tras_la_conquista_musulmana_de_los_dominios_visigodos_y_las_posteriores_incursiones_de_las_tropas_carolingias_en_778_806_812_y_824_en_el_siglo_ix_pamplona_se_consolida_dentro_de_un_emergente_n_cleo_cristiano_con_estrechos_lazos_din_sticos_y_regionales_con_los_banu_qasi_que_da_lugar_a_la_creaci_n_del_reino_de_pamplona"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="303dp"
+        android:layout_height="185dp"
+        android:text="@string/este_reino_tuvo_como_primer_caudillo_a_igo_arista_c_816_851_de_la_dinast_a_arista_iga_que_fueron_sucedidos_en_el_a_o_905_por_la_dinast_a_jimena_el_reino_pasar_a_a_denominarse_en_el_siglo_xii_durante_el_reinado_de_sancho_vi_el_sabio_reino_de_navarra_durante_el_siglo_x_se_instalaron_en_la_ciudad_nuevos_pobladores_principalmente_francos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="304dp"
+        android:layout_height="72dp"
+        android:capitalize="none"
+        android:text="@string/reino_de_pamplona"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        tools:ignore="Deprecated,TextSizeCheck,TextViewEdits" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9C7"
+    tools:context=".InfoFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="304dp"
+        android:layout_height="153dp"
+        android:text="@string/sobre_el_primer_milenio_a_c_en_la_actual_ciudad_de_pamplona_se_alzaba_un_poblado_de_vascones_que_a_decir_de_algunos_ya_recib_a_el_nombre_de_iru_a_55_tambi_n_se_ha_considerado_y_es_m_s_probable_que_la_denominaci_n_bengoda_es_vascona_y_que_correspondi_a_la_actual_pamplona_capital_del_territorio_vasc_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="303dp"
+        android:layout_height="185dp"
+        android:text="@string/las_condiciones_de_su_cuenca_han_favorecido_el_asentamiento_humano_desde_el_inicio_de_los_tiempos_los_hallazgos_de_industria_l_tica_herramientas_de_piedra_que_se_han_realizado_en_las_terrazas_del_r_o_arga_dan_testimonio_de_la_ocupaci_n_humana_de_estas_tierras_hace_75_000_a_os_durante_la_excavaci_n_en_los_a_os_2001_2003_de_la_plaza_del_castillo_se_encontr_un_menhir_que_no_se_ha_logrado_datar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="316dp"
+        android:layout_height="49dp"
+        android:capitalize="none"
+        android:text="@string/historia_de_iru_a"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="Deprecated,TextViewEdits,TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
