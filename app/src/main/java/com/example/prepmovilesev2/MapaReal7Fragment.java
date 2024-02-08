@@ -78,6 +78,12 @@ public class MapaReal7Fragment extends Fragment {
         // Inflate the layout for this fragment
 
         //return inflater.inflate(R.layout.fragment_mapa_real7, container, false);
+
+
+        Context ctx = requireActivity();
+        Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
+        Configuration.getInstance().setUserAgentValue(requireActivity().getPackageName());
+
         View view = inflater.inflate(R.layout.fragment_mapa_real7, container, false);
 
         buttonMyPlace = view.findViewById(R.id.buttonPosMap);
@@ -87,40 +93,7 @@ public class MapaReal7Fragment extends Fragment {
         System.out.println("map is this");
         System.out.println("mapp:"+map);
 
-        return view;
-    }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-
-
-
-//        Context ctx = requireActivity();
-//        Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
-//        Configuration.getInstance().setUserAgentValue(getPackageName());
-
-        //setContentView(R.layout.activity_mapa_real);
-
-
-
-
-
-        // Verificar permisos de ubicación
-//        while (permiso == 0) {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
-//                    && ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
-//                    != PackageManager.PERMISSION_GRANTED) { //AndroidManifest
-//
-//            } else {
-//                setupMap();
-//                permiso++;
-//            }
-//        }
 
 
 
@@ -130,6 +103,8 @@ public class MapaReal7Fragment extends Fragment {
         setupMap();
 
         buttonMyPlace.setOnClickListener(v -> {
+            System.out.println("this button works at least");
+
             mapController.setCenter(myLocationOverlay.getMyLocation());
 
         });
@@ -143,7 +118,56 @@ public class MapaReal7Fragment extends Fragment {
             }
         });
 
+
+
+
+
+
+
+
+
+        return view;
     }
+
+//    @Override
+//    public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        if (getArguments() != null) {
+//            mParam1 = getArguments().getString(ARG_PARAM1);
+//            mParam2 = getArguments().getString(ARG_PARAM2);
+//        }
+//
+//
+//
+////        Context ctx = requireActivity();
+////        Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
+////        Configuration.getInstance().setUserAgentValue(getPackageName());
+//
+//        //setContentView(R.layout.activity_mapa_real);
+//
+//
+//
+//
+//
+//        // Verificar permisos de ubicación
+////        while (permiso == 0) {
+////            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
+////                    && ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+////                    != PackageManager.PERMISSION_GRANTED) { //AndroidManifest
+////
+////            } else {
+////                setupMap();
+////                permiso++;
+////            }
+////        }
+//
+//
+//
+//
+//
+//
+//
+//    }
 
 
 

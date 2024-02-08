@@ -23,6 +23,18 @@ public class InfoFragment1 extends Fragment {
         // El segundo parámetro (container) es el ViewGroup principal en el que se insertará la vista inflada.
         // El tercer parámetro (false) indica si la vista inflada debe adjuntarse al grupo raíz inmediatamente.
         // En este caso, es false porque el grupo raíz se adjuntará más adelante en el ciclo de vida del fragmento.
+
+
+
+
+
         return inflater.inflate(R.layout.fragment_info1, container, false);
+
+
+
+
+
+
+
     }
 }
